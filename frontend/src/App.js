@@ -21,7 +21,7 @@ class App extends Component {
     this.setState(clone);
   }
 
-  handleAdd = async (product) => {
+  handleAdd = (product) => {
     
     let clone = { ...this.state };
     let tempID;
@@ -40,7 +40,7 @@ class App extends Component {
       totalPrice: product.price
     }
 
-    await addNewCartItem(tempOrder);
+    addNewCartItem(tempOrder);
     clone.orders.push(tempOrder);
     
     this.setState(clone);
