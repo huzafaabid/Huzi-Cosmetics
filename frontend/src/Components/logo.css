@@ -1,0 +1,19 @@
+p{
+    margin: 0;
+    display: inline-block;
+}
+
+#text1{
+    color: rgb(243, 43, 53);
+    font-weight: 700;
+    text-align: center;
+    font-style: italic;
+    font-size: medium;
+}
+
+#text2{
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+    text-align: center;
+}

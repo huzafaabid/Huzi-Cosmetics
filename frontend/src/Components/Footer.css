@@ -1,0 +1,31 @@
+#content-f{
+    background-color: #d7385e
+}
+
+
+ul{
+    margin: 5px;
+    padding: 0;
+    list-style-type: none;
+}
+ul a{
+    color: white;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+ul a:hover{
+    color: #ffa5a5
+}
+
+.heading{
+    /* display: flex;
+    justify-content: center; */
+    color: white;
+    font-weight: 500;
+}
+
+#address{
+    font-weight: 200;
+    color: white;
+}

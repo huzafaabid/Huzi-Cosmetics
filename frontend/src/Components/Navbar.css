@@ -1,0 +1,20 @@
+li a{
+    font-weight: 300;
+    
+}
+
+span{
+    color: rgb(252, 252, 252);
+}
+
+#navColor{
+    background-color: #d7385e;
+}
+
+.nav-link:hover{
+    background-color: #ffa5a5;
+}
+
+#navbarNav{
+    margin-left: 400px;
+}
