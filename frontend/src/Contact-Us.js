@@ -52,7 +52,7 @@ const ContactUs = (props) => {
                                 <div id='firstRow' style={inputStyle}>
                                     <div className='inputField' style={{ marginRight: "10px" }}>
                                         <p style={styleP}>First Name:</p>
-                                        <Field name="customerName" type="text" />
+                                        <Field name="customerName"  type="text" />
                                         <ErrorMessage name="customerName" component={"div"}/>
                                     </div>
                                     <div className='inputField'>
@@ -66,7 +66,7 @@ const ContactUs = (props) => {
                                     <div className='inputField'>
                                         <p style={styleP}>Phone:</p>
                                         <Field type="text" name="phoneNumber" />
-                                        <ErrorMessage type="text" name="phoneNumber" component={"div"}/>
+                                        <ErrorMessage name="phoneNumber" component={"div"}/>
                                     </div>
                                 </div>
 
@@ -74,13 +74,13 @@ const ContactUs = (props) => {
                                     <div className='inputField'>
                                         <p style={styleP}>Message:</p>
                                         <textarea type="text" name="message" id="message" style={{ height: "200px", width: "500px" }} onChange={props.handleChange} onBlur={props.handleBlur} />
-                                        <ErrorMessage type="text" name="message" component={"div"}/>
+                                        <ErrorMessage name="message" component={"div"}/>
                                     </div>
                                 </div>
 
                                 <div id='fourthRow' style={{ marginTop: "10px" }}>
                                     <div className='inputField'>
-                                        <button type='submit' disabled={!props.isValid} style={{ backgroundColor: "black", color: "white" }}>SEND</button>
+                                        <button type='submit' disabled={props.isValid==false} style={{ backgroundColor: "black", color: "white" }}>SEND</button>
                                     </div>
                                 </div>
                                 

@@ -1,15 +1,7 @@
 import React, { Component } from 'react';
 
 class CartProduct extends Component {
-    state = {}
-
-    constructor(props)
-    {
-        super(props);
-        this.state ={
-            quantity: this.props.qty
-        }
-    }
+    state = {quantity: this.props.qty}
 
     render() {
         return (
